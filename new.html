@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Component</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+       
+        function createComponent() {
+            const container = document.getElementById('app');
+            const button = document.createElement('button');
+            button.textContent = 'Click me!';
+            let count = 0;
+            button.addEventListener('click', () => {
+                count++;
+                button.textContent = `Clicked ${count} times`;
+            });
+            container.appendChild(button);
+        }
+        
+        createComponent();
+    </script>
+</body>
+</html>

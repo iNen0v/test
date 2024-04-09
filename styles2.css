@@ -1,0 +1,80 @@
+body {
+    font-size: 36px;
+}
+
+.text {
+    color: blueviolet;
+    background-color: aliceblue;
+    text-align: center;
+    vertical-align: text-top;
+    text-decoration-line: overline underline;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Sofia", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: normal;
+}
+
+h1 {
+    padding: 40px;
+    text-decoration-thickness: 1.2px;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 1.8px;
+    line-height: 0px;
+    word-spacing: 10px;
+    font-size: 0.8em;
+}
+
+p {
+    padding: 40px;
+    text-decoration-thickness: 1.2px;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 1.8px;
+    line-height: 0px;
+    word-spacing: 10px;
+}
+
+div {
+    font-size: 100px;
+}
+
+span {
+    font-size: 2em;
+}
+section{
+    height: 100vh;
+    display: flex;
+}
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 12%;
+}
+
+.button-container {
+    display: inline-block;
+    padding: 10px;
+    border: solid 2px red;
+}
+
+form{
+    display: flex;
+    flex-direction:column ;
+    width: 40vh;
+}
+input{
+    display: inline-block;
+}
+button{
+    padding: 20px 30px;
+    width: 30%;
+}
+#name {
+    align-items: flex-end;
+}

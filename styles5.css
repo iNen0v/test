@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:140%;
+    height: 200vh;
+}
+div{
+    border:3px solid green;
+    padding: 5px ;
+}
+.img{
+    float: right;
+}
+.img1{
+    float: right;
+}
+.h2{
+    clear: right;
+}
+.clearfix{
+    overflow: auto;
+}

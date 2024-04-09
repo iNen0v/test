@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 78%;
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px 15px 18px;
+    margin: 10px 20px 15px 18px;
+    border: inset 8px rgb(46, 45, 45);  
+    margin: 10px;
+}
+ 
+.box2 {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 15px 25px 20px 23px;
+    margin: 15px 25px 20px 23px;
+    background-color: silver;
+    border: 2mm ridge rgb(12, 11, 11);
+}
+ 
+.box3 {
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 20px 30px 25px 28px;
+    margin: 20px 30px 25px 28px;
+    border: 3px solid black;
+}
