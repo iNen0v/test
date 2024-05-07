@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    flex: 3;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+.text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.photo2 {
+    flex: 3;
+}
+
+.photo2 img {
+
+    max-width: 100%;
+    height: auto;
+}
+.photo3 {
+    flex: 3;
+}
+
+.photo3 img {
+
+    max-width: 100%;
+    height: auto;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px; 
+    line-height: 1.5; 
+    color: #333; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+input[type=text],select,textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.content {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
